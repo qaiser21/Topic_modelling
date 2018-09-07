@@ -4,11 +4,13 @@ Topic Modelling Using Scikit, for IMDB movie rating
 
 Topic modelling can be described as a method for finding a group of words (i.e topic) from a collection of documents that best represents the information in the collection. It can also be thought of as a form of text mining – a way to obtain recurring patterns of words in textual material
 
+
 Latent Dirichlet Allocation (LDA)
 In the LDA model, each document is viewed as a mixture of topics that are present in the corpus. The model proposes that each word in the document is attributable to one of the document’s topics.
 
 
 Process Explained:
+
 
 Go through each document and randomly assign each word in the document to one of K topics (K is chosen beforehand)
 This random assignment gives topic representations of all documents and word distributions of all the topics, albeit not very good  ones
