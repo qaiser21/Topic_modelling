@@ -15,8 +15,8 @@ This random assignment gives topic representations of all documents and word dis
 
 So, to improve upon them:
          For each document d, go through each word w and compute:
-          p(topic t | document d): proportion of words in document d that are assigned to topic t
-          p(word w| topic t): proportion of assignments to topic t, over all documents d, that come from word w
+         p(topic t | document d): proportion of words in document d that are assigned to topic t
+         p(word w| topic t): proportion of assignments to topic t, over all documents d, that come from word w
 
 Reassign word w a new topic t’, where we choose topic t’ with probability
     p(topic t’ | document d) * p(word w | topic t’)
